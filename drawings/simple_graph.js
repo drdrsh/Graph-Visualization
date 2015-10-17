@@ -120,6 +120,7 @@ Drawing.SimpleGraph = function(options) {
           }
         },
         clicked: function(obj) {
+            controls.target = obj.position;
         }
       });
     }
